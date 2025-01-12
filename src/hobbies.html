@@ -4,15 +4,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hobbies</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
 
     <header class="site-header">
-        <h1 class="site-title">
+        <div class="site-title">
             <img src="images/profile.png" alt="Ephrata's Profile Picture" width="50" height="50" class="profile-pic">
-            Ephrata Wolde
-        </h1>
-
+            <h1>Ephrata Wolde</h1>
+        </div>
+    
         <nav class="navigation">
             <ul class="nav-list">
                 <li><a href="index.html" class="nav-link">Home</a></li>
@@ -22,51 +23,59 @@
                 <li><a href="articles.html" class="nav-link">Articles</a></li>
             </ul>
         </nav>
+    
+        <div class="social-icons">
+            <a href="#"><img src="images/twitter.png" alt="Twitter Icon"></a>
+            <a href="#"><img src="images/link.jpg" alt="LinkedIn Icon"></a>
+            <a href="#"><img src="images/instagram.jpg" alt="Instagram Icon"></a>
+            <a href="#"><img src="images/gmail.png" alt="Email Icon"></a>
+        </div>
     </header>
 
     <main class="main-content">
         <section class="intro-section">
             <h2 class="section-title">Hobbies</h2>
-            <p class="section-description">Exploring some of my favorite pastimes and activities.</p>
         </section>
+        <div class="hobby-container">
+            <section class="hobby-section film-cinematography">
+                <h2 class="hobby-title">Film and Cinematography</h2>
+                <p class="hobby-description">Film and cinematography are passions of mine that I deeply admire and study. I love watching films and short films, paying close attention to how directors use visuals, lighting, and editing to tell powerful stories. I’m fascinated by the creative choices behind each shot, the use of color and angles, and the way sound and music can enhance the narrative. I spend time analyzing films on YouTube, reading about different cinematography techniques, and exploring the work of directors and filmmakers who inspire me. For me, it’s all about understanding how the magic of cinema comes to life on screen, and it’s something I continuously learn from and draw inspiration from.</p>
+                <img src="images/nolan.jpg" width="200" height="200" class="hobby-image" alt="christopher nolan movies">
+                <video controls width="300" height="300" class="hobby-video">
+                    <source src="videos/blooper.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+                <img src="images/stephen.jpg" width="200" height="200" alt="" class="hobby-image">
+            </section>
 
-        <section class="hobby-section film-cinematography">
-            <h2 class="hobby-title">Film and Cinematography</h2>
-            <p class="hobby-description">Film and cinematography are passions of mine that I deeply admire and study. I love watching films and short films, paying close attention to how directors use visuals, lighting, and editing to tell powerful stories. I’m fascinated by the creative choices behind each shot, the use of color and angles, and the way sound and music can enhance the narrative. I spend time analyzing films on YouTube, reading about different cinematography techniques, and exploring the work of directors and filmmakers who inspire me. For me, it’s all about understanding how the magic of cinema comes to life on screen, and it’s something I continuously learn from and draw inspiration from.</p>
-            <img src="images/nolan.jpg" width="200" height="200" class="hobby-image" alt="christopher nolan movies">
-            <video controls width="300" height="300" class="hobby-video">
-                <source src="videos/blooper.mp4" type="video/mp4">
-                Your browser does not support the video tag.
-            </video>
-            <img src="images/stephen.jpg" width="200" height="200" alt="" class="hobby-image">
-        </section>
+            <section class="hobby-section coding-technology">
+                <h2 class="hobby-title">Coding and Technology</h2>
+                <p class="hobby-description">Coding is a major part of my academic focus, and I enjoy exploring new technologies and tools to develop my programming skills. I spend time learning different programming languages and experimenting with personal projects. Whether it's building websites or testing out small applications, I love how coding challenges me to think critically and solve problems. My goal is to continue improving my technical abilities and to explore how technology can be used creatively to build innovative solutions.</p>
+                <img src="images/coding1.jpg" width="300" height="300" alt="" class="hobby-image">
+                <img src="images/coding2.jpg" width="300" height="300" alt="" class="hobby-image">
+            </section>
 
-        <section class="hobby-section coding-technology">
-            <h2 class="hobby-title">Coding and Technology</h2>
-            <p class="hobby-description">Coding is a major part of my academic focus, and I enjoy exploring new technologies and tools to develop my programming skills. I spend time learning different programming languages and experimenting with personal projects. Whether it's building websites or testing out small applications, I love how coding challenges me to think critically and solve problems. My goal is to continue improving my technical abilities and to explore how technology can be used creatively to build innovative solutions.</p>
-            <img src="images/coding1.jpg" width="300" height="300" alt="" class="hobby-image">
-            <img src="images/coding2.jpg" width="300" height="300" alt="" class="hobby-image">
-        </section>
-
-        <section class="hobby-section fitness-gym">
-            <h2 class="hobby-title">Fitness and Gym</h2>
-            <p class="hobby-description">Fitness has always been a key part of my routine, not just for physical health but also for mental clarity. I focus on a mix of strength training and cardio, pushing myself to reach new fitness milestones. It’s not just about lifting weights, but also about maintaining discipline, tracking progress, and balancing intensity with recovery. Gym time serves as both a way to challenge my body and a chance to unwind and clear my mind, which helps me stay focused on my academic and personal goals.</p>
-            <img src="images/gym2.jpg" width="300" height="300" alt="" class="hobby-image">
-            <video controls width="300" height="300" class="hobby-video">
-                <source src="videos/treadmill.mp4" type="video/mp4">
-                Your browser does not support the video tag.
-            </video>
-            <img src="images/gym4.jpg" width="300" height="300" alt="" class="hobby-image">
-        </section>
+            <section class="hobby-section fitness-gym">
+                <h2 class="hobby-title">Fitness and Gym</h2>
+                <p class="hobby-description">Fitness has always been a key part of my routine, not just for physical health but also for mental clarity. I focus on a mix of strength training and cardio, pushing myself to reach new fitness milestones. It’s not just about lifting weights, but also about maintaining discipline, tracking progress, and balancing intensity with recovery. Gym time serves as both a way to challenge my body and a chance to unwind and clear my mind, which helps me stay focused on my academic and personal goals.</p>
+                <img src="images/gym2.jpg" width="300" height="300" alt="" class="hobby-image">
+                <video controls width="300" height="300" class="hobby-video">
+                    <source src="videos/treadmill.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+                <img src="images/gym4.jpg" width="300" height="300" alt="" class="hobby-image">
+            </section>
+        </div>
     </main>
 
     <footer class="site-footer">
-        &copy; Ephrata Wolde 2024
-        <ul class="social-links">
-            <li><a href="https://twitter.com" target="_blank" class="social-link">Twitter</a></li>
-            <li><a href="https://facebook.com" target="_blank" class="social-link">Facebook</a></li>
-            <li><a href="https://linkedin.com" target="_blank" class="social-link">LinkedIn</a></li>
-        </ul>
+        <p class="footer-text">&copy; 2024 Ephrata Wolde</p>
+        <div class="social-icons">
+            <a href="#"><img src="images/twitter.png" alt="Twitter Icon"></a>
+            <a href="#"><img src="images/link.jpg" alt="LinkedIn Icon"></a>
+            <a href="#"><img src="images/instagram.jpg" alt="Instagram Icon"></a>
+            <a href="#"><img src="images/gmail.png" alt="Email Icon"></a>
+        </div>
     </footer>
 
 </body>
