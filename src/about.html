@@ -5,15 +5,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About Me</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
 
     <header class="site-header">
-        <h1 class="site-title">
+        <div class="site-title">
             <img src="images/profile.png" alt="Ephrata's Profile Picture" width="50" height="50" class="profile-pic">
-            Ephrata Wolde
-        </h1>
-        
+            <h1>Ephrata Wolde</h1>
+        </div>
+    
         <nav class="navigation">
             <ul class="nav-list">
                 <li><a href="index.html" class="nav-link">Home</a></li>
@@ -23,6 +24,13 @@
                 <li><a href="articles.html" class="nav-link">Articles</a></li>
             </ul>
         </nav>
+    
+        <div class="social-icons">
+            <a href="#"><img src="images/twitter.png" alt="Twitter Icon"></a>
+            <a href="#"><img src="images/link.jpg" alt="LinkedIn Icon"></a>
+            <a href="#"><img src="images/instagram.jpg" alt="Instagram Icon"></a>
+            <a href="#"><img src="images/gmail.png" alt="Email Icon"></a>
+        </div>
     </header>
 
     <main class="main-content">
@@ -39,7 +47,7 @@
             <img src="images/gym.jpg" width="400" height="400" alt="Gym">
             <img src="images/cinema2.jpg" width="400" height="400" alt="Cinematography">
         </div>
-
+        <div class="about-container">
         <section class="skills-section">
             <h2 class="section-title">Skills</h2>
             <ul class="skills-list">
@@ -85,15 +93,17 @@
                 <li>Personal best of 100kgs on the leg press in under 2 months</li>
             </ul>
         </section>
+    </div>
     </main>
 
     <footer class="site-footer">
-        &copy; Ephrata Wolde 2024
-        <ul class="social-links">
-            <li><a href="https://twitter.com" target="_blank" class="social-link">Twitter</a></li>
-            <li><a href="https://facebook.com" target="_blank" class="social-link">Facebook</a></li>
-            <li><a href="https://linkedin.com" target="_blank" class="social-link">LinkedIn</a></li>
-        </ul>
+        <p class="footer-text">&copy; 2024 Ephrata Wolde</p>
+        <div class="social-icons">
+            <a href="#"><img src="images/twitter.png" alt="Twitter Icon"></a>
+            <a href="#"><img src="images/link.jpg" alt="LinkedIn Icon"></a>
+            <a href="#"><img src="images/instagram.jpg" alt="Instagram Icon"></a>
+            <a href="#"><img src="images/gmail.png" alt="Email Icon"></a>
+        </div>
     </footer>
 
 </body>
